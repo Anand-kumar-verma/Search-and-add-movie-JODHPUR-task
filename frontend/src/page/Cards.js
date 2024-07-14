@@ -48,7 +48,7 @@ const Cards = ({ parameter }) => {
   }
   if (!result?.Title) return <div className="!text-white">Not Found</div>;
   return (
-    <Card className="!w-[50%] !h-[90vh]">
+    <Card className="!w-[100%] !h-[90vh]">
       <CardMedia
         className={"!h-[50%]"}
         image={result?.Poster}
